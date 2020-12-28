@@ -1,4 +1,4 @@
-package com.practicals.array;
+package com.kal.simple;
 
 import java.util.Scanner;
 
