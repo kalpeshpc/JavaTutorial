@@ -26,7 +26,10 @@ public class Comparator8Demo {
 
         //Sort By Age
         emp.sort(Comparator.comparing(e -> e.getAge()));
+        //Let's print the sorted list
+        System.out.println(emp);
 
+        //Sort BY First name
         emp.sort(Comparator.comparing(Emp::getFirstName));
 
         //Let's print the sorted list
