@@ -2,10 +2,7 @@ package com.java8.topics;
 
 import com.java8.topics.Bean.Emp;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class Comparator8Demo {
 
@@ -61,6 +58,7 @@ public class Comparator8Demo {
         Arrays.parallelSort(employeesArray, groupByComparator);
 
         System.out.println(employeesArray);
+    //    Collections.singletonList();
 
     }
 }
